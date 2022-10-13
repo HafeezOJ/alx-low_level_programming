@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-/**  
+/**
  * main - Entry point
  *
  * Description: A C program that prints using puts
- * 
+ *
  * Return: 0 (succes)
  */
 int main(void)
