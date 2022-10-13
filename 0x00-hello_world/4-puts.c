@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-/** 
- * a C program that prints exactly with puts 
+/**  
  * main - Entry point
- * prints "Programming is like building a multilingual puzzle
- * returns 0
+ *
+ * Description: A C program that prints using puts
+ * 
+ * Return: 0 (succes)
  */
 int main(void)
 {
