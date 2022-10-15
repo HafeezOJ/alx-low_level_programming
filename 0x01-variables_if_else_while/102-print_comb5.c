@@ -26,10 +26,10 @@ int main(void)
 						putchar(' ');
 						putchar(num2);
 						putchar(num3);
-						if (num == 57 && num1 == 56 && num2 == 57 && num3 == 57)
-						{
-							break;
-						}
+					if (num == 57 && num1 == 56 && num2 == 57 && num3 == 57)
+					{
+						break;
+					}
 						putchar(',');
 						putchar(' ');
 					}
