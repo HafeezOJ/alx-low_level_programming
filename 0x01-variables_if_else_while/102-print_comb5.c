@@ -17,8 +17,11 @@ int main(void)
 		{
 			for (num2 = 48; num2 < 58; num2++)
 			{
-				for (num3 = num2 + 1; num3 < 58; num3++)
+				for (num3 = 48; num3 < 58; num3++)
 				{
+					if (num3 == num1)
+						continue;
+
 					putchar(num);
 					putchar(num1);
 					putchar(' ');
