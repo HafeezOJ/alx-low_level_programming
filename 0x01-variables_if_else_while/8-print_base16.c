@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	char base_hex0_9. base_hexa_f;
+	char base_hex0_9, base_hexa_f;
 
 	for (base_hex = '0'; base_hex <= '9'; base_hex++)
 	{
