@@ -19,7 +19,7 @@ int main(void)
 			{
 				for (num3 = 48; num3 < 58; num3++)
 				{
-					if (num3 == num1)
+					if (num3 == num || num3 == num1)
 						continue;
 					putchar(num);
 					putchar(num1);
