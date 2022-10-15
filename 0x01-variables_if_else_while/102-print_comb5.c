@@ -19,19 +19,20 @@ int main(void)
 			{
 				for (num3 = 48; num3 < 58; num3++)
 				{
-					if (num3 == num || num3 == num1)
-						continue;
-					putchar(num);
-					putchar(num1);
-					putchar(' ');
-					putchar(num2);
-					putchar(num3);
-					if (num == 57 && num1 == 56 && num2 == 57 && num3 == 57)
+					if ((num * 10) + num1 < (num2 * 10) +  num3)
 					{
-						break;
+						putchar(num);
+						putchar(num1);
+						putchar(' ');
+						putchar(num2);
+						putchar(num3);
+						if (num == 57 && num1 == 56 && num2 == 57 && num3 == 57)
+						{
+							break;
+						}
+						putchar(',');
+						putchar(' ');
 					}
-					putchar(',');
-					putchar(' ');
 				}
 			}
 		}
