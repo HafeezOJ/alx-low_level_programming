@@ -15,7 +15,7 @@ int main(void)
 	{
 		putchar(base_hex0_9);
 	}
-	for (base_hexa_f = 'a'; basehexa_f <= 'f'; base_hexa_f++)
+	for (base_hexa_f = 'a'; base_hexa_f <= 'f'; base_hexa_f++)
 	{
 		putchar(base_hexa_f);
 	}
