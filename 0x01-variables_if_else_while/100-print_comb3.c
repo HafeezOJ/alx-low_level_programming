@@ -17,11 +17,12 @@ int main(void)
 		{
 			putchar(num);
 			putchar(num1);
-			if (num != 56 && num1 == 57)
+			if (num == 56 && num1 == 57)
 			{
-				putchar(',');
-				putchar(' ');
+				break;
 			}
+			putchar(',');
+			putchar(' ');
 		}
 
 	}
