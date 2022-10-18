@@ -13,7 +13,6 @@ int main(void)
 	int size = sizeof(text);
 	int counter;
 
-	
 	for (counter = 0; counter < size ; counter++)
 	{
 		_putchar(text[counter]);
