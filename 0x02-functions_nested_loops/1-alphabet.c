@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet: A function to print alhabets
+ * print_alphabet - A function to print alhabets
  *
  * Description: Prints a-z using _putchar function
  *
