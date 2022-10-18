@@ -12,9 +12,10 @@ int main(void)
 {
 	char text[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 	int size = sizeof(text);
+	int counter;
 
 	
-	for (int counter = 0; counter < size ; counter++)
+	for (counter = 0; counter < size ; counter++)
 	{
 		_putchar(text[counter]);
 	}
