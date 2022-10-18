@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib.h>
+
 /**
  * print_last_digit - print last digit of a number
  *
@@ -12,5 +12,18 @@
 
 int print_last_digit(int num)
 {
-	return ((num % 10) * 11);
+	int remainder;
+
+	remainder = num % 10;
+
+	if (remainder < 0)
+	{
+		_putchar(-remainder + '0');
+		return (-remainder);
+	}
+	else
+	{
+		_putchar(remainder + '0');
+		return (remainder);
+	}
 }
