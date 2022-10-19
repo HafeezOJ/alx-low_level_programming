@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int first_num, second_num, next_num, count;
+	long int first_num, second_num, next_num, count;
 
 	first_num = 1;
 	second_num = 2;
