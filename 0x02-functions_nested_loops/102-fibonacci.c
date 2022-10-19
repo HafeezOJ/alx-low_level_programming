@@ -13,10 +13,10 @@ int main(void)
 	second_num = 2;
 	count = 0;
 
-	printf("%d", first_num);
+	printf("%ld", first_num);
 	putchar(',');
 	putchar(' ');
-	printf("%d", second_num);
+	printf("%ld", second_num);
 	putchar(',');
 	putchar(' ');
 	count += 2;
@@ -24,7 +24,7 @@ int main(void)
 	while (count <= 50)
 	{
 		next_num = first_num + second_num;
-		printf("%d", next_num);
+		printf("%ld", next_num);
 		putchar(',');
 		putchar(' ');
 		first_num = second_num;
