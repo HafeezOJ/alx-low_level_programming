@@ -17,16 +17,18 @@ int main(void)
 	putchar(',');
 	putchar(' ');
 	printf("%ld", second_num);
-	putchar(',');
-	putchar(' ');
 	count += 2;
 
-	while (count <= 50)
+	while (count < 50)
 	{
+		if (count < 50)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		next_num = first_num + second_num;
 		printf("%ld", next_num);
-		putchar(',');
-		putchar(' ');
+
 		first_num = second_num;
 		second_num = next_num;
 		count++;
