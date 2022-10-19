@@ -7,11 +7,10 @@
  */
 int main(void)
 {
-	long int first_num, second_num, next_num, count, sum;
+	long int first_num, second_num, next_num, sum;
 
 	first_num = 1;
 	second_num = 2;
-	count = 0;
 	sum = 2;
 
 	for (;;)
