@@ -7,7 +7,8 @@
  */
 int main(void)
 {
-	int limit, counter, sum;
+	int limit, counter;
+	long int sum;
 
 	limit = 1024;
 	counter = 0;
@@ -22,6 +23,6 @@ int main(void)
 		counter++;
 	}
 	printf("%ld", sum);
-	printf("%d\n", n);
+	printf("\n");
 	return (0);
 }
