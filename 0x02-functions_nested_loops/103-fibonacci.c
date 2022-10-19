@@ -14,7 +14,7 @@ int main(void)
 	count = 0;
 	sum = 2;
 
-	for(;;)
+	for (;;)
 	{
 		next_num = first_num + second_num;
 
