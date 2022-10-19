@@ -8,7 +8,6 @@
 int main(void)
 {
 	int first_num, second_num, next_num, count;
-	long int sum;
 
 	first_num = 1;
 	second_num = 2;
@@ -30,7 +29,7 @@ int main(void)
 		putchar(' ');
 		first_num = second_num;
 		second_num = next_num;
-		counter++;
+		count++;
 	}
 
 	printf("\n");
