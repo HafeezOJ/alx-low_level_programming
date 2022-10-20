@@ -22,7 +22,7 @@ void print_diagonal(int n);
 		{
 			if (count == 0)
 			{
-				_putchar('\\');
+				_putchar(92);
 			}
 			else
 			{
@@ -30,7 +30,7 @@ void print_diagonal(int n);
 				{
 					_putchar(' ');
 				}
-				_putchar('\\');
+				_putchar(92);
 			}
 		}
 		_putchar('\n');
