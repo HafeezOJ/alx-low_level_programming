@@ -16,22 +16,26 @@ int main(void)
 		if (num % 3 == 0 && num % 5 != 0)
 		{
 			printf("Fizz");
-			putchar(' ');
+			if (num != 100)
+				putchar(' ');
 		}
 		else if (num % 5 == 0 && num % 3 != 0)
 		{
 			printf("Buzz");
-			putchar(' ');
+			if (num != 100)
+				putchar(' ');
 		}
 		else if (num % 3 == 0 && num % 5 == 0)
 		{
 			printf("FizzBuzz");
-			putchar(' ');
+			if (num != 100)
+				putchar(' ');
 		}
 		else
 		{
 			printf("%d", num);
-			putchar(' ');
+			if (num != 100)
+				putchar(' ');
 		}
 	}
 	printf("\n");
