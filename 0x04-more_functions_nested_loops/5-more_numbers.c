@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * more_numbers - 1 - 14 10 times.
+ * more_numbers - 0 - 14 10 times.
  *
  * Description: Prints 0 - 9
  *
