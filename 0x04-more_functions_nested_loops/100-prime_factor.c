@@ -23,8 +23,8 @@ int main(void)
 			{
 				if (count % i == 0)
 				{
-					break;
 					flag = 0;
+					break;
 				}
 				flag = 1;
 
