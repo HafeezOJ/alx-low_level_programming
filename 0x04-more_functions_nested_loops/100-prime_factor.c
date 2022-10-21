@@ -7,30 +7,16 @@
 
 int main(void)
 {
-	long int num, pf, count;
-
-	int i;
-
-	int flag;
+	long int num, pf;
 
 	num = 612852475143;
 
-	for (count = 2; count <= num; count++)
+	for (pf = 2; pf <= num; pf++)
 	{
-		if (num % count == 0)
+		if (num % pf == 0)
 		{
-			for (i = 2; i <= 9; i++)
-			{
-				if (count % i == 0)
-				{
-					flag = 0;
-					break;
-				}
-				flag = 1;
-
-			}
-			if (flag == 1)
-				pf = count;
+			num = num / pf;
+			pf -= 1;
 		}
 	}
 
