@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strlen - reset a value to 98 using pointer
+ * _strlen - gets the length of a string
  *
  * @s: pointer to char
  *
