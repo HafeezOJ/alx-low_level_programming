@@ -13,10 +13,9 @@
 void rev_string(char *s)
 {
 	const int l =  strlen(s);
-	char *rev_s;
+	char *rev_s = *s;
 	int i, m;
 	
-	*rev_s = *s;
 	m = 0;
 
 	for (i = (l - 1); i >= 0; i--)
