@@ -4,7 +4,7 @@
  *
  * @n: pointer to n
  *
- * Description: use pointer to change variable value 
+ * Description: use pointer to change variable value
  *
  * Return: void
  */
