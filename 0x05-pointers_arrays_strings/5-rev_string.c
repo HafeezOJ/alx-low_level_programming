@@ -12,8 +12,8 @@
 
 void rev_string(char *s)
 {
-	int l =  strlen(s);
-	char *rev_s[l];
+	const int l =  strlen(s);
+	char rev_s[l];
 	int i, m;
 
 	m = 0;
@@ -23,5 +23,5 @@ void rev_string(char *s)
 		rev_s[m] = s[i];
 		m++;
 	}
-	*s = *rev_s;
+	s = rev_s;
 }
