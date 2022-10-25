@@ -13,14 +13,16 @@
 void rev_string(char *s)
 {
 	const int l =  strlen(s);
-	char *rev_s = s;
+	/*char rev_s = s;*/
+	char c;
 	int i, m;
 
 	m = 0;
 	for (i = (l - 1); i >= 0; i--)
 	{
-		rev_s[m] = s[i];
+		c = s[i];
+		s[i] = s[m];
+		s[m] = c;
 		m++;
 	}
-	s = rev_s;
 }
