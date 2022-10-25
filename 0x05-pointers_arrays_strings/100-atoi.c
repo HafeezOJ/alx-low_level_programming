@@ -12,5 +12,7 @@
 
 int _atoi(char *s)
 {
+	if (s[0] == '+' || s[0] == '-')
+		s = s + 1;
 	return (atoi(s));
 }
