@@ -18,7 +18,7 @@ char *string_toupper(char *s)
 
 	for (i = 0; i < length; i++)
 	{
-		toupper(*(s + i));
+		s[i] = toupper(s[i]);
 	}
 	return (s);
 
