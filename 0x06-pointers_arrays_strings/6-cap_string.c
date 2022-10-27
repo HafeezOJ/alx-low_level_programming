@@ -20,6 +20,7 @@ char *cap_string(char *s)
 
 	s_length = strlen(s);
 	separators_length = sizeof(separators) / sizeof(char);
+	count = 0;
 
 	while (count < s_length)
 	{
