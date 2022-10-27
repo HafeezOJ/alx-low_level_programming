@@ -20,9 +20,8 @@ char *cap_string(char *s)
 
 	s_length = strlen(s);
 	separators_length = sizeof(separators) / sizeof(char);
-	count = 0;
 
-	while (count < s_length)
+	for (count = 0; count < s_length; count++)
 	{
 		for (i = 0; i < separators_length; i++)
 		{
@@ -32,7 +31,6 @@ char *cap_string(char *s)
 				break;
 			}
 		}
-		count++;
 	}
 	return (s);
 }
