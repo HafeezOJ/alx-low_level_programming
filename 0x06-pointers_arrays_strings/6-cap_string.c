@@ -25,9 +25,9 @@ char *cap_string(char *s)
 	{
 		for (i = 0; i < separators_length; i++)
 		{
-			if (s[count] == separators[i])
+			if (*(s + count) == separators[i])
 			{
-				s[count + 1] = toupper(s[count + 1]);
+				*(s + count + 1) = toupper(*(s + count + 1));
 				break;
 			}
 		}
