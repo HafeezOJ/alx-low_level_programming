@@ -12,17 +12,26 @@
 
 void rev_string(char *s)
 {
-	const int l =  strlen(s);
-	/*char rev_s = s;*/
-	char c;
-	int i, m;
+	int length = strlen(s);
+	int midway, i, k;
+	char temp;
 
-	m = 0;
-	for (i = (l - 1); i >= 0; i--)
+	if (length % 2 != 0)
 	{
-		c = s[i];
-		s[i] = s[m];
-		s[m] = c;
-		m++;
+		midway = (length - 1) / 2;
+	}
+	else
+	{
+		midway = length / 2;
+	}
+	k = length - 1;
+
+	for (i = 0; i < midway; i++)
+	{
+		temp = *(s + i);
+		*(s + i) = *(s + k);
+		*(s + k) = temp;
+		k--;
+
 	}
 }
