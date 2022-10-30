@@ -12,10 +12,8 @@
 
 char *rot13(char *s)
 {
-	char alphabet[] = "abcdefghijklmnopqrstuvwxyz
-		ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char rot13_chars[] = "nopqrstuvwxyzabcdefghijklm
-		NOPQRSTUVWXYZABCDEFGHIJKLM";
+	char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char rot13_chars[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 	int i, m;
 	int length_s = strlen(s);
 	int length_alphabet = strlen(alphabet);
