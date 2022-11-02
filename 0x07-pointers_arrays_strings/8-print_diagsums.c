@@ -32,7 +32,7 @@ void print_diagsums(int *a, int size)
 
 	for (k = 0; k < size; k++)
 	{
-		m = size - k - 1;
+		m = (size - 1) - k;
 		diag2_sum += *(a + k * size + m);
 	}
 }
