@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _is_prime_number - checks if a number is prime
+ * is_prime_number - checks if a number is prime
  *
  * @n: int number to check
  *
@@ -17,7 +17,6 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	
 	if (is_prime_number(n % (x + 1)) == 0)
 	{
 		return (0);
