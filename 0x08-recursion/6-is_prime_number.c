@@ -40,5 +40,7 @@ int check_prime(int n, int x)
 
 int is_prime_number(int n)
 {
+	if (n < 0 || n == 0 || n == 1)
+		return (0);
 	return (check_prime(n, 2));
 }
