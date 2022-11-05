@@ -6,7 +6,7 @@
  *@argc: number of arguments
  *@argv: values of arguments
  *
- * Description: print name of the program
+ * Description: print number of arguments
  *
  * Return: int
  */
