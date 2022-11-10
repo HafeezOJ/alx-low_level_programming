@@ -34,7 +34,7 @@ char *str_concat(char *s1, char *s2)
 	if (ar == NULL)
 		return (ar);
 
-	for (m = 0; m < i; m++)
+	for (m = 0; m <= i; m++)
 		ar[m] = s1[m];
 	k = 0;
 	for (n = i + 1; n <= i + j ; n++)
