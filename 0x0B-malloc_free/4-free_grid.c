@@ -3,7 +3,7 @@
 
 /**
  * free_grid - clear memomry held by user
- * 
+ *
  * @grid: multidimensional arra
  * @height: height of the grid.
  *
