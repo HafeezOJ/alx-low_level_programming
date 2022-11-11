@@ -44,8 +44,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		ar[k] = s1[k];
 
 	limit = n;
-	for (j = 0; j <= limit; k++, j++)
+	for (j = 0; j < limit; k++, j++)
 		ar[k] = s2[j];
+	ar[j] = '\0';
 
 	return (ar);
 }
