@@ -10,7 +10,7 @@
  */
 
 /**
- * type dog
+ *dog_t - type dog
  */
 
 typedef struct dog dog_t;
