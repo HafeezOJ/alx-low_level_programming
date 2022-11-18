@@ -13,18 +13,20 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list largs;
 	unsigned int i;
+	char *str;
 
 	va_start(largs, n);
 
 	for (i = 0; i < n; i++)
 	{
-		if (!va_arg(largs, char *))
+		str = va_arg(largs, char *);
+		if (str)
 		{
-			printf("(nil)");
+			printf("%s", str);
 		}
 		else
 		{
-			printf("%s", va_arg(largs, char *));
+			printf("(nil)");
 		}
 
 		if (i < (n - 1) && separator)
