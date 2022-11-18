@@ -10,15 +10,5 @@
  */
 void print_all(const char * const format, ...)
 {
-	va_list largs;
-
-	va_start(largs, format);
-	while(va_arg(largs, format))
-	{
-		
-	}
-
-
-	va_end(largs);
-	printf("\n");
+	printf("%d", format);
 }
